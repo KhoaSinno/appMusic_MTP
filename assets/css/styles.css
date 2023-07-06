@@ -235,7 +235,16 @@ body {
     .song {
         margin-bottom: 10px;
     }
-
+    .header_music .header-title h4 {
+        margin: 3px 0;
+        font-size: 17px;
+    }
+    .header_music .header-title h2 {
+        margin: 5px 0;
+    }
+    .list_music {
+        max-height: 470px;
+    }
     .list_music .song .body .title {
         font-size: 18px;
         margin-bottom: 0.2rem;
@@ -251,7 +260,7 @@ body {
     }
 
     .header_music .cd {
-        width: 165px;
+        width: 160px;
     }
 
     .control {
