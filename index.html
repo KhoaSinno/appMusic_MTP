@@ -1,0 +1,76 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/mtpXP.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Sky's music with Sinoo</title>
+</head>
+
+<body>
+    <section id="music_app">
+        <div class="header_music">
+            <!-- Name's music -->
+            <div class="header-title">
+                <h4>Music Zone:</h4>
+                <h2 class="neonText" >THis is music</h2>
+            </div>
+            <!-- background for music -->
+            <div class="cd">
+                <div class="cd-thumb" style="
+    background: url('/assets/img/song6.jpg') center center / cover">
+                </div>
+            </div>
+            <!-- controller music -->
+            <div class="control">
+                <div class="myBtn btn-repeat"><i class="fas fa-redo"></i></div>
+                <div class="myBtn btn-prev"><i class="fas fa-step-backward"></i></div>
+                <div class="myBtn btn-toggle-play">
+                    <i class="fas fa-pause icon-pause controlBtn-pause"></i>
+                    <i class="fas fa-play icon-play controlBtn-play"></i>
+                </div>
+                <div class="myBtn btn-next"><i class="fas fa-step-forward"></i></div>
+                <div class="myBtn btn-random"><i class="fas fa-random"></i></div>
+            </div>
+            <!-- progress bar -->
+            <div class="time_music">
+                <span class="time_music-start">0:00</span>
+                <div class="progress_bar">
+                    <div class="progress" id="progress"></div>
+                </div>
+                <span class="time_music-end">0:00</span>
+            </div>
+            <audio id="audio" src=""></audio>
+        </div>
+        <div class="list_music">
+            <div class="song " data-index="4">
+                <div class="thumb" style="background: url('/assets/img/avt.jpg') center center / cover;">
+                </div>
+                <div class="body">
+                    <h3 class="title">abcyz</h3>
+                    <p class="author">Sinoo</p>
+                </div>
+                <div class="option">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <!-- main JS -->
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>

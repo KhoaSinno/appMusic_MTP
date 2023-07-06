@@ -1,0 +1,229 @@
+:root {
+    --primary-color: #290e45;
+    --sub-color: #3a264f;
+    --text-color: #f5f5f5;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: var(--sub-color);
+    color: var(--text-color);
+}
+
+/* Custom */
+
+.neonText {
+    animation: flicker 1.5s infinite alternate;
+    color: #fff;
+}
+
+.neonTextTitle {
+    color: #ffffff;
+    text-shadow:
+        0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 34px #0fa, 0 0 14px #0fa, 0 0 2px #0fa, 0 0 100px #0fa, 0 0 101px #0fa
+}
+
+.neonTextAuthor {
+    color: #ffffff;
+    text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 34px #00ffaa82, 0 0 1px #00ffaa8a, 0 0 2px #00ffaa91, 0 0 1px #00ffaa78, 0 0 1px #00ffaa5e;
+}
+
+
+/* Flickering animation */
+@keyframes flicker {
+
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+
+        text-shadow:
+            0 0 4px #fff,
+            0 0 11px #fff,
+            0 0 19px #fff,
+            0 0 40px #0fa,
+            0 0 80px #0fa,
+            0 0 90px #0fa,
+            0 0 100px #0fa,
+            0 0 150px #0fa;
+
+    }
+
+    20%,
+    24%,
+    55% {
+        text-shadow: none;
+    }
+}
+
+#music_app {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto;
+    padding: 50px;
+    max-height: 100%;
+}
+
+/* header_music */
+.header_music {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    max-height: 500px;
+}
+
+.header_music .header-title {
+    text-align: center;
+}
+
+.header_music .header-title h4 {
+    margin: 10px 0;
+}
+
+.header_music .header-title h2 {
+    margin: 10px 0;
+}
+
+/* background for music */
+.cd {
+    opacity: 1;
+    margin: auto;
+    display: flex;
+    width: 200px;
+}
+
+.cd .cd-thumb {
+    width: 100%;
+    /* background: url('/assets/img/avt.jpg') center center/ cover; */
+    border-radius: 50%;
+    margin: auto;
+    padding-top: 100%;
+}
+
+/* controller music */
+
+
+
+.control {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 15px;
+    margin: 10px 0;
+    font-size: 22px;
+
+
+}
+
+.control .btn-toggle-play {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid snow;
+}
+
+.control .btn-toggle-play i {
+    line-height: 88px;
+}
+
+.control .myBtn i,
+.control .myBtn {
+    transition: .2s;
+    cursor: pointer;
+}
+
+.control .myBtn:hover i {
+    color: rgb(164, 22, 207);
+}
+
+.control .btn-toggle-play:hover {
+    border: rgb(108, 20, 209) 2px solid;
+    scale: 1.2;
+}
+
+.btn-random.active i,
+.btn-repeat.active i {
+    color: rgb(108, 20, 209);
+}
+
+/* progress bar */
+.time_music {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time_music-start {
+    margin-left: 30px;
+}
+
+.time_music-end {
+    margin-right: 30px;
+}
+
+.progress_bar {
+    position: relative;
+    flex-grow: 1;
+    height: 6px;
+    margin: 0 10px;
+    background-color: #ddddddb1;
+}
+
+.progress_bar .progress {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+/* list_music */
+
+.list_music {
+    background-color: var(--primary-color);
+    padding: 20px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    max-height: 85%;
+}
+
+.song {
+    display: flex;
+    align-items: center;
+    background-color: var(--sub-color);
+    margin-bottom: 20px;
+    padding: 6px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.list_music .song .thumb {
+    /* background: url('/assets/img/avt.jpg') center center / cover; */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-size: cover;
+    margin: 0 8px;
+}
+
+.list_music .song .body {
+    flex: 1;
+    padding: 0 16px;
+}
+
+
+.song.active {
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 2px, rgb(31, 193, 27) 0px 0px 0px 5px, rgb(255, 217, 19) 0px 0px 0px 7px, rgb(255, 156, 85) 0px 0px 0px 7px, rgb(255, 85, 85) 0px 0px 0px 10px;
+}
+
+.song.active title {}
