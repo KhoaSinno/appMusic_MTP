@@ -98,7 +98,7 @@ const app = {
         setTimeout(() => {
             $('.song.active').scrollIntoView({
                 behavior: 'smooth',
-                block: 'center',
+                block: 'end',
             })
         }, 300);
     },
@@ -192,7 +192,7 @@ const app = {
                 _this.nextSong()
             audio.play()
             _this.render()
-            _this.scrollToActiveSong()
+            // _this.scrollToActiveSong()
             pauseIcon.style.display = 'block'
             playIcon.style.display = 'none'
         }
@@ -203,7 +203,7 @@ const app = {
                 _this.prevSong()
             audio.play()
             _this.render()
-            _this.scrollToActiveSong()
+            // _this.scrollToActiveSong()
             pauseIcon.style.display = 'block'
             playIcon.style.display = 'none'
         }

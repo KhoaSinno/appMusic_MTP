@@ -226,4 +226,44 @@ body {
     box-shadow: rgb(85, 91, 255) 0px 0px 0px 2px, rgb(31, 193, 27) 0px 0px 0px 5px, rgb(255, 217, 19) 0px 0px 0px 7px, rgb(255, 156, 85) 0px 0px 0px 7px, rgb(255, 85, 85) 0px 0px 0px 10px;
 }
 
-.song.active title {}
+@media only screen and (max-width: 600px) {
+    #music_app {
+        padding: 10px;
+        gap: 7px;
+    }
+
+    .song {
+        margin-bottom: 10px;
+    }
+
+    .list_music .song .body .title {
+        font-size: 18px;
+        margin-bottom: 0.2rem;
+    }
+
+    .list_music .song .body .author {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .list_music .song .body {
+        padding: 0px 8px;
+    }
+
+    .header_music .cd {
+        width: 165px;
+    }
+
+    .control {
+        margin: 0;
+    }
+
+    .control .btn-toggle-play {
+        width: 61px;
+        height: 61px;
+    }
+
+    .control .btn-toggle-play i {
+        line-height: 61px;
+    }
+}
