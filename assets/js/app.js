@@ -30,42 +30,42 @@ const app = {
             name: 'Nơi này có anh (Sinoo&Naiz)',
             singer: 'SƠN TÙNG M-TP',
             path: './assets/music/noiNayCoAnh.mp3',
-            image: './assets/img/song6.jpg',
+            image: './assets/img/noiNayCoAnh.jpg',
 
         },
         {
-            name: 'Có ai hẹn hò cùng em chưa',
-            singer: 'Quân AP',
-            path: './assets/music/coaihenhocungemchua.mp3',
-            image: './assets/img/song1.jpg',
+            name: 'Âm thầm bên em(Naiz)',
+            singer: 'Sếp Sky',
+            path: './assets/music/amThamBenEm.mp3',
+            image: './assets/img/amThamBenEm.jpg',
 
         },
         {
-            name: 'Khác biệt',
-            singer: 'Khắc Việt',
-            path: './assets/music/KhacBiet.mp3',
-            image: './assets/img/song2.jpg',
+            name: 'Buông đôi tay nhau ra',
+            singer: 'Sếp Sky',
+            path: './assets/music/buongDoiTayNhauRa.mp3',
+            image: './assets/img/buongDoiTayNhauRa.jpg',
 
         },
         {
-            name: 'Chia tay là giải pháp',
-            singer: 'Ngô Quyền Linh - Cover',
-            path: './assets/music/ChiaTayLaGiaiPhap.mp3',
-            image: './assets/img/song3.jpg',
+            name: 'Có chắc yêu là đây',
+            singer: 'Sky MTP',
+            path: './assets/music/coChacYeuLaDay.mp3',
+            image: './assets/img/coChacYeuLaDay.jpg',
 
         },
         {
-            name: 'Suýt nữa thì',
-            singer: 'Andiez',
-            path: './assets/music/SuytNuaThi.mp3',
-            image: './assets/img/song4.jpg',
+            name: 'Chắc ai đó sẽ về',
+            singer: 'Sky MTP',
+            path: './assets/music/chacAiDoSeVe.mp3',
+            image: './assets/img/chacAiDoSeVe.jpg',
 
         },
         {
-            name: 'Thế giới trong em',
-            singer: 'Hương Ly',
-            path: './assets/music/TheGioiTrongEm.mp3',
-            image: './assets/img/song5.jpg',
+            name: 'Khuôn mặt đáng thương',
+            singer: 'Sky MTP',
+            path: './assets/music/khuonMatDangThuong.mp3',
+            image: './assets/img/khuonMatDangThuong.jpg',
 
         },
     ],
