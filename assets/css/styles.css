@@ -134,7 +134,20 @@ body {
 .control .btn-toggle-play i {
     line-height: 88px;
 }
+.control .myBtn {
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    border-radius: 50%;
+}
+.control .myBtn:hover {
+}
 
+.control .myBtn i {
+    display: flex;
+    justify-content: center;
+    line-height: 36px;
+}
 .control .myBtn i,
 .control .myBtn {
     transition: .2s;
@@ -142,7 +155,7 @@ body {
 }
 
 .control .myBtn:hover i {
-    color: rgb(164, 22, 207);
+    color: rgb(108, 20, 209);
 }
 
 .control .btn-toggle-play:hover {
@@ -150,6 +163,10 @@ body {
     scale: 1.2;
 }
 
+.btn-random i,
+.btn-repeat i {
+    color: whitesmoke;
+}
 .btn-random.active i,
 .btn-repeat.active i {
     color: rgb(108, 20, 209);
@@ -244,7 +261,7 @@ body {
         margin: 5px 0;
     }
     .list_music {
-        max-height: 500px;
+        max-height: 400px;
     }
     .list_music .song .body .title {
         font-size: 18px;
