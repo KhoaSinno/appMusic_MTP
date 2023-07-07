@@ -309,12 +309,12 @@ body {
     }
 
     .control .btn-toggle-play {
-        width: 35px;
-        height: 35px;
+        width: 45px;
+        height: 45px;
     }
 
     .control .btn-toggle-play i {
-        line-height: 35px;
+        line-height: 45px;
         font-size: 13px;
     }
 }
