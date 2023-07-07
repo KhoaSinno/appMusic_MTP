@@ -14,6 +14,20 @@
 body {
     background-color: var(--sub-color);
     color: var(--text-color);
+    position: relative;
+}
+
+/* overplay */
+
+.overplay_SN {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/assets/img/naiz.jpg') center center / cover;
+    z-index: 1;
+    opacity: 0.2;
 }
 
 /* Custom */
@@ -71,6 +85,8 @@ body {
     grid-template-columns: auto;
     padding: 50px;
     max-height: 100%;
+    position: relative;
+    z-index: 100;
 }
 
 /* header_music */
@@ -134,20 +150,22 @@ body {
 .control .btn-toggle-play i {
     line-height: 88px;
 }
+
 .control .myBtn {
-    width: 35px;
-    height: 35px;
+    width: 61px;
+    height: 61px;
     background: transparent;
     border-radius: 50%;
 }
-.control .myBtn:hover {
-}
+
+.control .myBtn:hover {}
 
 .control .myBtn i {
     display: flex;
     justify-content: center;
-    line-height: 36px;
+    line-height: 61px;
 }
+
 .control .myBtn i,
 .control .myBtn {
     transition: .2s;
@@ -167,6 +185,7 @@ body {
 .btn-repeat i {
     color: whitesmoke;
 }
+
 .btn-random.active i,
 .btn-repeat.active i {
     color: rgb(108, 20, 209);
@@ -253,16 +272,20 @@ body {
     .song {
         margin-bottom: 10px;
     }
+
     .header_music .header-title h4 {
         margin: 3px 0;
         font-size: 17px;
     }
+
     .header_music .header-title h2 {
         margin: 5px 0;
     }
+
     .list_music {
         max-height: 400px;
     }
+
     .list_music .song .body .title {
         font-size: 18px;
         margin-bottom: 0.2rem;
@@ -286,11 +309,12 @@ body {
     }
 
     .control .btn-toggle-play {
-        width: 61px;
-        height: 61px;
+        width: 35px;
+        height: 35px;
     }
 
     .control .btn-toggle-play i {
-        line-height: 61px;
+        line-height: 35px;
+        font-size: 13px;
     }
 }

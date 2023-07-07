@@ -26,6 +26,10 @@ const app = {
     isRandom: false,
     isRepeat: false,
     songs: [
+        /**
+         tien len viet nam
+
+         */
         {
             name: 'Nơi này có anh (Sinoo&Naiz)',
             singer: 'SƠN TÙNG M-TP',
@@ -66,6 +70,97 @@ const app = {
             singer: 'Sky MTP',
             path: './assets/music/khuonMatDangThuong.mp3',
             image: './assets/img/khuonMatDangThuong.jpg',
+
+        },
+        {
+            name: 'Tình yêu trong mắt em',
+            singer: 'Sếp Sky',
+            path: './assets/music/tinhYeuTrongMatEm.mp3',
+            image: './assets/img/tinhYeuTrongMatEm.jpg',
+
+        },
+        {
+            name: 'Đừng về trễ',
+            singer: 'Sếp Sky',
+            path: './assets/music/dungVeTre.mp3',
+            image: './assets/img/dungVeTre.jpg',
+
+        },
+        {
+            name: 'Bình yên nơi đâu',
+            singer: 'Sếp Sky',
+            path: './assets/music/binhYenNoiDau.mp3',
+            image: './assets/img/binhYenNoiDau.jpg',
+
+        },
+        {
+            name: 'Remember Me',
+            singer: 'Sếp Sky',
+            path: './assets/music/rememberMe.mp3',
+            image: './assets/img/rememberMe.jpg',
+
+        },
+        {
+            name: 'Làm người luôn yêu em',
+            singer: 'Sếp Sky',
+            path: './assets/music/lamNguoiLuonYeuEm.mp3',
+            image: './assets/img/lamNguoiLuonYeuEm.jpg',
+
+        },
+        {
+            name: 'Anh sai rồi',
+            singer: 'Sếp Sky',
+            path: './assets/music/anhSaiRoi.mp3',
+            image: './assets/img/anhSaiRoi.jpg',
+
+        },
+        {
+            name: 'Không phải dạng vừa đâu',
+            singer: 'Sếp Sky',
+            path: './assets/music/khongPhaiDangVuaDau.mp3',
+            image: './assets/img/khongPhaiDangVuaDau.jpg',
+
+        },
+        {
+            name: 'Cơn mưa ngang qua',
+            singer: 'Sếp Sky',
+            path: './assets/music/conMuaNgangQua.mp3',
+            image: './assets/img/conMuaNgangQua.jpg',
+
+        },
+        {
+            name: 'Em của ngày hôm qua',
+            singer: 'Sếp Sky',
+            path: './assets/music/emCuaNgayHomWa.mp3',
+            image: './assets/img/emCuaNgayHomWa.jpg',
+
+        },
+        {
+            name: 'There\'s no One at all',
+            singer: 'Sếp Sky',
+            path: './assets/music/thereNoOneAtAll.mp3',
+            image: './assets/img/thereNoOneAtAll.jpg',
+
+        },
+        {
+            name: 'Chúng ta của hiện tại',
+            singer: 'Sếp Sky',
+            path: './assets/music/chungTaCuaHienTai.mp3',
+            image: './assets/img/chungTaCuaHienTai.jpg',
+
+        },
+        {
+            name: 'Mai này con lớn lên',
+            singer: 'Sếp Sky',
+            path: './assets/music/maiNayConLonLen.mp3',
+            image: './assets/img/maiNayConLonLen.jpg',
+
+        },
+        {
+            name: 'Chúng ta không thuộc về nhau',
+            singer: 'Sếp Sky',
+            path: './assets/music/chungTaKhongThuocVeNhau.mp3',
+            image: './assets/img/chungTaKhongThuocVeNhau.jpg',
 
         },
     ],
