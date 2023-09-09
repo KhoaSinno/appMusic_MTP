@@ -38,19 +38,26 @@ const app = {
 
         },
         {
+            name: 'Muộn rồi mà sao chưa về (Remix)',
+            singer: 'M-TP x BOMATELA',
+            path: './assets/music/muonRoiMaSaoConChuaVe.mp3',
+            image: './assets/img/muonRoiMaSaoConChuaVe.jpg',
+
+        },
+        {
             name: 'Âm thầm bên em(Naiz)',
             singer: 'Sếp Sky',
             path: './assets/music/amThamBenEm.mp3',
             image: './assets/img/amThamBenEm.jpg',
 
         },
-        {
-            name: 'Buông đôi tay nhau ra',
-            singer: 'Sếp Sky',
-            path: './assets/music/buongDoiTayNhauRa.mp3',
-            image: './assets/img/buongDoiTayNhauRa.jpg',
+        // {
+        //     name: 'Buông đôi tay nhau ra',
+        //     singer: 'Sếp Sky',
+        //     path: './assets/music/buongDoiTayNhauRa.mp3',
+        //     image: './assets/img/buongDoiTayNhauRa.jpg',
 
-        },
+        // },
         {
             name: 'Có chắc yêu là đây',
             singer: 'Sky MTP',
@@ -156,13 +163,13 @@ const app = {
             image: './assets/img/maiNayConLonLen.jpg',
 
         },
-        {
-            name: 'Chúng ta không thuộc về nhau',
-            singer: 'Sếp Sky',
-            path: './assets/music/chungTaKhongThuocVeNhau.mp3',
-            image: './assets/img/chungTaKhongThuocVeNhau.jpg',
+        // {
+        //     name: 'Chúng ta không thuộc về nhau',
+        //     singer: 'Sếp Sky',
+        //     path: './assets/music/chungTaKhongThuocVeNhau.mp3',
+        //     image: './assets/img/chungTaKhongThuocVeNhau.jpg',
 
-        },
+        // },
     ],
     defineProperties: function () {
         Object.defineProperty(this, 'currentSong', {
